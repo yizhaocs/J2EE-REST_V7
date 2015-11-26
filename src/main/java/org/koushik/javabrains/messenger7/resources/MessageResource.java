@@ -24,6 +24,8 @@ import org.koushik.javabrains.messenger7.service.MessageService;
  * http://localhost:8080/messenger5/webapi/messages/test
  */
 @Path("/messages")
+//@Consumes(MediaType.APPLICATION_JSON)
+//@Produces(MediaType.APPLICATION_JSON)
 public class MessageResource {	
 	MessageService messageService = new MessageService();
 
